@@ -1,6 +1,10 @@
 # Text-Classification-of-Amazon-Reviews
 This is a Natural Language Processing class project that focuses on text categorization and sentiment analysis in Amazon reviews.
 
+
+The Data set used contains 25000 enteries of reviews from Amazon's website.
+
+
 -Read the content of the `AmazonReviews.csv` into a dataframe called `reviews_df`
 
 -Preprocess the `reviews_df` dataframe to prepare it for the following questions. Your preprocessing must include the following:
