@@ -2,9 +2,12 @@
 This is a Natural Language Processing class project that focuses on text categorization and sentiment analysis in Amazon reviews.
 
 -Read the content of the `AmazonReviews.csv` into a dataframe called `reviews_df`
--Preprocess the `reviews_df` dataframe to prepare it for the following questions. Your preprocessing must include the following:**
-  -Add a new column to the dataframe called `sentiment` calculated based on the `Score` field values as follows: If the Score value is less than 3 then the sentimnet is 0 'negative` and if the Score value is greater than or equal to 3 then the sentimnet is 1 `positive`
--Clean the `Text` field by performing the following:
+
+-Preprocess the `reviews_df` dataframe to prepare it for the following questions. Your preprocessing must include the following:
+  
+  -Add a new column to the dataframe called `sentiment` calculated based on the `Score` field values as follows: If the Score value is less than 3 then the   sentimnet is 0 'negative` and if the Score value is greater than or equal to 3 then the sentimnet is 1 `positive`
+  
+  -Clean the `Text` field by performing the following:
         -make text lowercase
         -remove text in square brackets,
         -remove links,
